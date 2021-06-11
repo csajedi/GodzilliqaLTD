@@ -20,7 +20,7 @@ async function main() {
     const myGasPrice = units.toQa('2000', units.Units.Li); // Gas Price that will be used by all transactions
 
     console.log("start to deploy nft: ");
-    const code = fs.readFileSync("contracts/nft.scilla").toString();
+    const code = fs.readFileSync("contracts/auctioneer.scilla").toString();
     console.log("contract code is: ");
     console.log(code);
     const init = [
@@ -31,20 +31,36 @@ async function main() {
             value: "0"
         },
         {
-            vname: "contract_owner",
+            vname: "auctionStart",
+            type: "BNum",
+            value: `2885690`
+        },
+        {
+            vname: "biddingTime",
+            type: "Uint128",
+            value: `52000`
+        },
+        {
+            vname: "beneficiary",
             type: "ByStr20",
             value: `${address}`
         },
         {
-            vname: "name",
-            type: "String",
-            value: `Godzilliqa Limited`
+            vname: "nftAddress",
+            type: "ByStr20",
+            value: `${address}`
         },
         {
-            vname: "symbol",
-            type: "String",
-            value: `GODZ`
-        }
+            vname: "nftSeller",
+            type: "ByStr20",
+            value: `${address}`
+        },
+        {
+            vname: "nftTokenID",
+            type: "Uint256",
+            value: `1`
+        },
+        
     ];
     console.log("init json is: ");
     console.log(JSON.stringify(init));

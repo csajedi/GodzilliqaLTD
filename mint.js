@@ -25,13 +25,23 @@ async function main() {
     try {
         const contract = zilliqa.contracts.at(nftAddr);
         const callTx = await contract.callWithoutConfirm(
-            'Bid',
+            'Mint',
             [
+                {
+                    vname: 'to',
+                    type: 'ByStr20',
+                    value: `${address}`,
+                },
+                {
+                    vname: 'token_uri',
+                    type: 'String',
+                    value: 'some_token_uri',
+                }
             ],
             {
                 // amount, gasPrice and gasLimit must be explicitly provided
                 version: VERSION,
-                amount: new BN(10000),
+                amount: new BN(0),
                 gasPrice: myGasPrice,
                 gasLimit: Long.fromNumber(10000),
             }
@@ -48,7 +58,7 @@ async function main() {
         const confirmedTxn = await callTx.confirm(callTx.id);
 
         console.log(`The transaction status is:`);
-        console.log(JSON.stringify(confirmedTxn.receipt));
+        console.log(confirmedTxn.receipt);
 
     } catch (err) {
         console.log(err);
