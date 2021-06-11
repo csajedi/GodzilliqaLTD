@@ -1,4 +1,5 @@
 # The Godzilliqa Limited NFT series
+![Giant Monster](https://github.com/csajedi/GodzilliqaLTD/blob/main/godz.jpeg)
 
 The goal of this series is to put money in the hands of artists. We will find artists with an interest in monsters or Zilliqa and comission a work of art building on the Godzilliqa myth. Over the course of the following months the sounds and visual renditions will begin to agree and then come to form a valuable brand asset that can be reused as a symbol of the Zilliqa project.
 
