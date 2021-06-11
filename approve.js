@@ -30,12 +30,12 @@ async function main() {
                 {
                     vname: 'to',
                     type: 'ByStr20',
-                    value: '0xad7a7a32f0718c4e9718faf4b5f8c7c86ffa7fe2',
+                    value: '0x7564d70bc7aad32fbe7e4deb9a288960dfb9c1c6',
                 },
                 {
                     vname: 'token_id',
                     type: 'Uint256',
-                    value: '2',
+                    value: '1',
                 },
             ],
             {

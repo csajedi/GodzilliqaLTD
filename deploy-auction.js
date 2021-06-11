@@ -48,7 +48,7 @@ async function main() {
         {
             vname: "nftAddress",
             type: "ByStr20",
-            value: `${address}`
+            value: "0x03d074d5ef0fb093c21b3d299459b90fc4991a83"
         },
         {
             vname: "nftSeller",

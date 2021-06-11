@@ -35,7 +35,7 @@ async function main() {
                 {
                     vname: 'token_uri',
                     type: 'String',
-                    value: 'some_token_uri',
+                    value: 'Qmc6qQbGuLdJyqTVSDU2FhRiZqshnagL9NpT2tn2qCvhJP',
                 }
             ],
             {
