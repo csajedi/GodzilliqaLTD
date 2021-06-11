@@ -11,7 +11,7 @@ async function main() {
     const CHAIN_ID = 333;
     const MSG_VERSION = 1;
     const VERSION = bytes.pack(CHAIN_ID, MSG_VERSION);
-    privkey = '589e486b65e553df4efbc0543a3c7678aa52d347c8189169e4f9acb6a08d1c7e';
+    privkey = '3375F915F3F9AE35E6B301B7670F53AD1A5BE15D8221EC7FD5E503F21D3450C8';
     zilliqa.wallet.addByPrivateKey(
         privkey
     );
@@ -21,7 +21,7 @@ async function main() {
     const myGasPrice = units.toQa('2000', units.Units.Li); // Gas Price that will be used by all transactions
 
 
-    const nftAddr = toBech32Address("03d074d5ef0fb093c21b3d299459b90fc4991a83");
+    const nftAddr = toBech32Address("7564d70bc7aad32fbe7e4deb9a288960dfb9c1c6");
     try {
         const contract = zilliqa.contracts.at(nftAddr);
         const callTx = await contract.callWithoutConfirm(

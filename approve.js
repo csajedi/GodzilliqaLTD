@@ -25,7 +25,7 @@ async function main() {
     try {
         const contract = zilliqa.contracts.at(nftAddr);
         const callTx = await contract.callWithoutConfirm(
-            'approve',
+            'SetApprove',
             [
                 {
                     vname: 'to',

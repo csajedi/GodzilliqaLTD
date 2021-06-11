@@ -5,7 +5,7 @@ The goal of this series is to put money in the hands of artists. Each month will
 
 # Benefit
 
-By using a customized NFT auctioneer contract we can begin the Auction with Godzilliqa#001 today. The first NFT in the series will be auctioned off with the allocation 100% to benefit the artists. This is to send a strong message and hopefully attract artists with an intrinsic motivation to the project. Future NFTs may also allocate a portion of their sale price to go towards buying and burning carbon offsets on behalf of the network's PoW carbon footprint.
+By using a customized NFT auctioneer contract we can begin the Auction with [Godzilliqa#001](https://gateway.pinata.cloud/ipfs/Qmc6qQbGuLdJyqTVSDU2FhRiZqshnagL9NpT2tn2qCvhJP) today. The first NFT in the series will be auctioned off with the allocation 100% to benefit the artists. This is to send a strong message and hopefully attract artists with an intrinsic motivation to the project. Future NFTs may also allocate a portion of their sale price to go towards buying and burning carbon offsets on behalf of the network's PoW carbon footprint.
 
 # First round
 
@@ -14,3 +14,9 @@ This round the contracts are already on the testnet and the media is on IPFS. On
 # Ownership and Author Credit
 
 All images from this drop will be viewed as NFTs normally, but any music or multimedia may be given creative commons designation to permit wide and unrestricted usage. Owners of an NFT are free to treat it as any other NFT and tokenize it, sell it, etc.
+
+# Testnet config
+
+all the configuration and steps needed to run the auction are live on the testnet at
+[nft](https://viewblock.io/zilliqa/address/zil1q0g8f400p7cf8ssm855egkdeplzfjx5rhclggm?network=testnet)
+[auctioneer](https://viewblock.io/zilliqa/address/zil1w4jdwz784tfjl0n7fh4e52yfvr0mnswxzm7wsj?network=testnet)
